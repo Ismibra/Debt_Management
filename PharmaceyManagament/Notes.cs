@@ -1,4 +1,4 @@
-﻿using PharmaceyManagament.Helpers;
+using PharmaceyManagament.Helpers;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -69,7 +69,7 @@ namespace PharmaceyManagament
         }
 
         private void btnAdd_Click(object sender, EventArgs e)
-        {
+        {// check is not empty
             if (textBox1.Text.Trim().Length == 0)
             {
                 label1.ForeColor = Color.Red;

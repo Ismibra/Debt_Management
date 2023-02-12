@@ -6,7 +6,7 @@ as
 
 begin--begin main block
 Begin Try
---insert data
+--insert data .
 insert into SalesBill(bill_Date,bill_total,bill_rceiption,bill_type,bill_saler,customer)
 values(@billDate,@billTotal,@billReciption,@billType,@salerID,@customerID)
 
